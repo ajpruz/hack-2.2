@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* VARIABLES */
+body {
+  --blue: #93b5c9;
+  --wine: #ab2849;
+  height: 142vh;
+}
+nav {
+  height: 15vh;
+  background: var(--blue);
+}
+main {
+  display: relative;
+  height: 85vh;
+  width: 100vw;
+}
+header {
+  position: absolute;
+  height: 35vh;
+  width: 100vw;
+  background: var(--wine);
+}
+section {
+  position: absolute;
+  width: 100vw;
+  top: 50vh;
+  right: 0;
+}
+section > * {
+  height: 15vh;
+  width: 80vw;
+  background: var(--wine);
+  margin: 1em 0;
+}
+
+footer {
+  position: absolute;
+  height: 15vh;
+  width: 90vw;
+  background: var(--wine);
+  top: 125vh;
+  left: 5vw;
+}
